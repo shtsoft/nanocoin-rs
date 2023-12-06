@@ -22,8 +22,21 @@ A reimplementation of [nanocoin](https://github.com/bkolad/nanocoin) in **Rust**
     + memory-safety: no `unsafe`-code
   * is more real-world than Haskell ;)
 
-For documentation see [Released API docs](https://docs.rs/nanocoin-rs).
-In particular, you can find a design- and usage-description there.
+### Installation
+
+You can install nanocoin-rs with `cargo` by running:
+
+```console
+user@host:~$ cargo install nanocoin-rs
+```
+
+### Usage
+
+To get a usage description just run the app without arguments:
+
+```console
+user@host:~$ nanocoin-rs
+```
 
 ## Contributing
 
